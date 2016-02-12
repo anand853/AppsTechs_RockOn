@@ -1,0 +1,66 @@
+create database Atm;
+
+TRANSACTION TABLE:-
+
+create table transactions(
+
+ id int primary key,
+
+ username varchar(10) NOT NULL,
+
+ accountnumber varchar(10) not null,
+
+ pin varchar(6),
+
+ deposit_amount varchar(10),
+ withdrawl_amount  varchar(10)
+);
+ 
+
+insert into transactions 
+
+values('1', 'KIRAN','12345', '1212', '1000','0'),
+
+( '2', 'TEJASWI','54321', '2121', '1000','0'),
+ 
+('3', 'SANTHU','67890', '0007', '1000','0'),
+
+('4','PINKY','09876', '0009', '1000','0');
+
+select * from transactions;
+
+
+CHECK_BALANCE TABLE:-
+
+create table check_balance
+(
+ TransID int(4) Primary key,
+
+Username varchar(10) not null,
+
+Account_number varchar(10) not null,
+
+type varchar(15) ,
+
+Amount VARCHAR(10),
+
+Post_Balance int(10),
+
+date DATE not null
+);
+
+insert into check_balance
+
+values ('1001', 'TEJASWI', '54321', 'deposit','500.00','1500.00', now()),
+
+ ('1004', 'TEJASWI', '54321', 'deposit','200.00','1700.00', now()),
+ 
+('1005', 'TEJASWI', '54321', 'withdrawl','-100.00','1600.00', now()),
+
+ ('1006', 'TEJASWI', '54321', 'CheckBal','--','1600.00', now()),
+ 
+('1009', 'TEJASWI', '54321', 'withdrawl','400.00','1200.00', now()
+);
+
+select * from  check_balance;
+
