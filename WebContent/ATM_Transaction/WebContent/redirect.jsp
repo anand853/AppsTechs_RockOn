@@ -1,0 +1,10 @@
+
+    
+    
+    
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
+<% response.sendRedirect("login.htm"); %>
+
+<% out.println("hii"); %>    
