@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [05/Mar/2016:16:19:47 -0500] "GET /mywebapp HTTP/1.1" 302 - http-bio-8004-exec-1 0
+0:0:0:0:0:0:0:1 - - [05/Mar/2016:16:19:48 -0500] "GET /mywebapp/ HTTP/1.1" 302 - http-bio-8004-exec-5 699
+0:0:0:0:0:0:0:1 - - [05/Mar/2016:16:19:48 -0500] "GET /mywebapp/login.htm HTTP/1.1" 200 3877 http-bio-8004-exec-6 145
+0:0:0:0:0:0:0:1 - - [05/Mar/2016:16:19:55 -0500] "GET /mywebapp/Register.htm? HTTP/1.1" 200 4340 http-bio-8004-exec-7 224
+0:0:0:0:0:0:0:1 - - [05/Mar/2016:16:20:17 -0500] "POST /mywebapp/Register.htm? HTTP/1.1" 400 968 http-bio-8004-exec-8 31
+0:0:0:0:0:0:0:1 - - [05/Mar/2016:16:56:51 -0500] "GET /mywebapp/ HTTP/1.1" 302 - http-bio-8004-exec-9 3
+0:0:0:0:0:0:0:1 - - [05/Mar/2016:16:56:51 -0500] "GET /mywebapp/login.htm HTTP/1.1" 200 3877 http-bio-8004-exec-9 4
+0:0:0:0:0:0:0:1 - - [05/Mar/2016:16:56:54 -0500] "GET /mywebapp/Register.htm? HTTP/1.1" 200 4340 http-bio-8004-exec-9 12
+0:0:0:0:0:0:0:1 - - [05/Mar/2016:16:57:11 -0500] "POST /mywebapp/Register.htm? HTTP/1.1" 200 4369 http-bio-8004-exec-9 214
